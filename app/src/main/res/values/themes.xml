@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 画面は Compose で描くため、ウィンドウの最低限の設定だけ行う -->
+    <style name="Theme.TrailLog" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/window_background</item>
+    </style>
+
+    <color name="window_background">#FFF6F8F3</color>
+    <color name="ic_launcher_background">#FF2E5E3A</color>
+</resources>

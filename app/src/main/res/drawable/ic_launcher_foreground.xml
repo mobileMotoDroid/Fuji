@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ランチャーアイコンの前景（108dp のうち中央 66dp が見える範囲） -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 奥の山 -->
+    <path
+        android:fillColor="#FF8FB996"
+        android:pathData="M30,72 L50,44 L62,58 L70,48 L84,72 Z" />
+    <!-- 手前の山 -->
+    <path
+        android:fillColor="#FFF6F8F3"
+        android:pathData="M24,76 L46,40 L68,76 Z" />
+    <!-- 登山道 -->
+    <path
+        android:strokeColor="#FFE8A33D"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M36,76 Q44,68 42,62 T48,52" />
+</vector>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- NFR-SEC-05（Android 11 以前）：クラウドバックアップから記録・写真を除外する -->
+<full-backup-content>
+    <exclude domain="database" path="." />
+    <exclude domain="file" path="photos/" />
+</full-backup-content>

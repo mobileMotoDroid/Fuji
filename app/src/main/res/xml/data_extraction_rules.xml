@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  NFR-SEC-05（Android 12 以降）：
+  位置履歴を Google のクラウドに置かないよう、クラウドバックアップから記録・写真を除外する。
+  機種変更時の端末間転送では、すべてのデータを引き継ぐ。
+-->
+<data-extraction-rules>
+    <cloud-backup>
+        <exclude domain="database" path="." />
+        <exclude domain="file" path="photos/" />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="." />
+        <include domain="file" path="." />
+        <include domain="sharedpref" path="." />
+    </device-transfer>
+</data-extraction-rules>

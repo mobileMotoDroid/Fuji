@@ -1,0 +1,26 @@
+{
+  "version": 8,
+  "name": "GSI Standard",
+  "sources": {
+    "gsi-std": {
+      "type": "raster",
+      "tiles": ["https://cyberjapandata.gsi.go.jp/xyz/std/{z}/{x}/{y}.png"],
+      "tileSize": 256,
+      "minzoom": 2,
+      "maxzoom": 18,
+      "attribution": "<a href=\"https://maps.gsi.go.jp/development/ichiran.html\">出典：国土地理院</a>"
+    }
+  },
+  "layers": [
+    {
+      "id": "background",
+      "type": "background",
+      "paint": { "background-color": "#d9d9d9" }
+    },
+    {
+      "id": "gsi-std",
+      "type": "raster",
+      "source": "gsi-std"
+    }
+  ]
+}
