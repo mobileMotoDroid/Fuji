@@ -25,7 +25,7 @@
     </queries>
 
     <application
-        android:name=".TrailLogApp"
+        android:name=".FujiApp"
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
@@ -33,7 +33,7 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.TrailLog">
+        android:theme="@style/Theme.Fuji">
 
         <activity
             android:name=".MainActivity"

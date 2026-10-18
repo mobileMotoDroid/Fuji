@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.traillog"
+    namespace = "com.mobilemotodroid.fuji"
     compileSdk = 37
 
     defaultConfig {
-        applicationId = "com.example.traillog"
+        applicationId = "com.mobilemotodroid.fuji"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

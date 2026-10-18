@@ -1,4 +1,4 @@
-# 🏔️ トレイルログ（TrailLog） — Android 登山アプリ（MVP）
+# 🏔️ Fuji — Android 登山アプリ（MVP）
 
 [![Android CI](../../actions/workflows/android-ci.yml/badge.svg)](../../actions/workflows/android-ci.yml)
 
@@ -61,7 +61,7 @@
 ## 🧱 アーキテクチャ
 
 ```
-app/src/main/java/com/example/traillog/
+app/src/main/java/com/example/fuji/
 ├── domain/        # Android に依存しない計算（距離・標高・逸脱判定・フィルタ・タイル計算）
 ├── data/
 │   ├── db/        # Room（Activity, TrackPoint, Photo, Route, RoutePoint）
@@ -114,7 +114,7 @@ cd <repo-name>
 
 公開前に変更が必要なもの：
 
-- `applicationId` / `namespace`（`com.example.traillog`）とアプリ名（`res/values/strings.xml`）
+- `applicationId` / `namespace`（`com.mobilemotodroid.fuji`）とアプリ名（`res/values/strings.xml`）
 - 利用規約・プライバシーポリシーの本文（`ui/settings/LegalTexts.kt`）
 - リリースビルドの署名設定と、難読化（`isMinifyEnabled`）の有効化
 

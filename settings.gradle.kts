@@ -20,5 +20,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "TrailLog"
+rootProject.name = "Fuji"
 include(":app")
